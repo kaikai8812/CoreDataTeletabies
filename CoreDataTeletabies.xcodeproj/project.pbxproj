@@ -13,6 +13,8 @@
 		E83F03C82B11D732009D3980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83F03C72B11D732009D3980 /* Preview Assets.xcassets */; };
 		E83F03D02B11DA4F009D3980 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E83F03CE2B11DA4F009D3980 /* UserModel.xcdatamodeld */; };
 		E83F03D22B123E6E009D3980 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F03D12B123E6E009D3980 /* PersistenceController.swift */; };
+		E83F03D42B12D5C2009D3980 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F03D32B12D5C2009D3980 /* EditView.swift */; };
+		E83F03D62B12D8B5009D3980 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F03D52B12D8B5009D3980 /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E83F03C72B11D732009D3980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E83F03CF2B11DA4F009D3980 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 		E83F03D12B123E6E009D3980 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		E83F03D32B12D5C2009D3980 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		E83F03D52B12D8B5009D3980 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E83F03C62B11D732009D3980 /* Preview Content */,
 				E83F03CE2B11DA4F009D3980 /* UserModel.xcdatamodeld */,
 				E83F03D12B123E6E009D3980 /* PersistenceController.swift */,
+				E83F03D32B12D5C2009D3980 /* EditView.swift */,
+				E83F03D52B12D8B5009D3980 /* SampleView.swift */,
 			);
 			path = CoreDataTeletabies;
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E83F03C32B11D730009D3980 /* ContentView.swift in Sources */,
+				E83F03D42B12D5C2009D3980 /* EditView.swift in Sources */,
 				E83F03C12B11D730009D3980 /* CoreDataTeletabiesApp.swift in Sources */,
 				E83F03D02B11DA4F009D3980 /* UserModel.xcdatamodeld in Sources */,
+				E83F03D62B12D8B5009D3980 /* SampleView.swift in Sources */,
 				E83F03D22B123E6E009D3980 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
